@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  commentId: N:ASE_PROJECT_ASSESMENT.ComponentsProgram
+  id: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  children:
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppArray
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandConditional
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCompoundCommand
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppEnd
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppInt
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppReal
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
+  - ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram
+  langs:
+  - csharp
+  - vb
+  name: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  nameWithType: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  type: Namespace
+  assemblies:
+  - ASE_PROJECT_ASSESMENT
+references:
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppArray
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppArray
+  parent: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppArray.html
+  name: AppArray
+  nameWithType: AppArray
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppArray
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean.html
+  name: Boolean
+  nameWithType: Boolean
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.html
+  name: AppBoolean
+  nameWithType: AppBoolean
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandConditional
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandConditional
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandConditional.html
+  name: AppCommandConditional
+  nameWithType: AppCommandConditional
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandConditional
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCompoundCommand
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCompoundCommand
+  parent: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCompoundCommand.html
+  name: AppCompoundCommand
+  nameWithType: AppCompoundCommand
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCompoundCommand
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppEnd
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppEnd
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppEnd.html
+  name: AppEnd
+  nameWithType: AppEnd
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppEnd
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppInt
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppInt
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppInt.html
+  name: AppInt
+  nameWithType: AppInt
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppInt
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod.html
+  name: AppMethod
+  nameWithType: AppMethod
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppReal
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppReal
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppReal.html
+  name: AppReal
+  nameWithType: AppReal
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppReal
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram.html
+  name: AppStoredProgram
+  nameWithType: AppStoredProgram
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram.html
+  name: ParserProgram
+  nameWithType: ParserProgram
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  commentId: N:ASE_PROJECT_ASSESMENT.ComponentsProgram
+  href: ASE_PROJECT_ASSESMENT.html
+  name: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  nameWithType: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram
+  spec.csharp:
+  - uid: ASE_PROJECT_ASSESMENT
+    name: ASE_PROJECT_ASSESMENT
+    href: ASE_PROJECT_ASSESMENT.html
+  - name: .
+  - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram
+    name: ComponentsProgram
+    href: ASE_PROJECT_ASSESMENT.ComponentsProgram.html
+  spec.vb:
+  - uid: ASE_PROJECT_ASSESMENT
+    name: ASE_PROJECT_ASSESMENT
+    href: ASE_PROJECT_ASSESMENT.html
+  - name: .
+  - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram
+    name: ComponentsProgram
+    href: ASE_PROJECT_ASSESMENT.ComponentsProgram.html

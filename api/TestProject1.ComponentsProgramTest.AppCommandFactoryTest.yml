@@ -1,0 +1,1045 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  commentId: T:TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  id: AppCommandFactoryTest
+  parent: TestProject1.ComponentsProgramTest
+  children:
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  langs:
+  - csharp
+  - vb
+  name: AppCommandFactoryTest
+  nameWithType: AppCommandFactoryTest
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  type: Class
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: AppCommandFactoryTest
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 13
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: >-
+    This class contains unit tests for the <xref href="ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory" data-throw-if-not-resolved="false"></xref> class.
+
+    It tests the functionality of the <xref href="ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory" data-throw-if-not-resolved="false"></xref> to create the correct command 
+
+    based on the provided command string.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class AppCommandFactoryTest
+    content.vb: >-
+      <TestClass>
+
+      Public Class AppCommandFactoryTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp
+  id: SetUp
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: AppCommandFactoryTest.SetUp()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: SetUp
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 21
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Sets up the factory instance before each test.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  id: TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnTriangle_ForTriCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 30
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="ASE_PROJECT_ASSESMENT.Triangle" data-throw-if-not-resolved="false"></xref> command when the string "tri" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnTriangle_ForTriCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnTriangle_ForTriCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  id: TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 44
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="ASE_PROJECT_ASSESMENT.WriteTo" data-throw-if-not-resolved="false"></xref> command when the string "write" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  id: TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnRectangle_ForRectCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 58
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="BOOSE.Rect" data-throw-if-not-resolved="false"></xref> command when the string "rect" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnRectangle_ForRectCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnRectangle_ForRectCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  id: TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnCircle_ForCircleCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 72
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="BOOSE.Circle" data-throw-if-not-resolved="false"></xref> command when the string "circle" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnCircle_ForCircleCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnCircle_ForCircleCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  id: TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 86
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="BOOSE.MoveTo" data-throw-if-not-resolved="false"></xref> command when the string "moveto" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand
+  id: TestMakeCommand_ShouldReturnReset_ForResetCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnReset_ForResetCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnReset_ForResetCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 100
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="ASE_PROJECT_ASSESMENT.Reset" data-throw-if-not-resolved="false"></xref> command when the string "reset" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnReset_ForResetCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnReset_ForResetCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand
+  id: TestMakeCommand_ShouldReturnClear_ForClearCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnClear_ForClearCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnClear_ForClearCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 114
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="ASE_PROJECT_ASSESMENT.Clear" data-throw-if-not-resolved="false"></xref> command when the string "clear" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnClear_ForClearCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnClear_ForClearCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand
+  id: TestMakeCommand_ShouldReturnFill_ForFillCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnFill_ForFillCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnFill_ForFillCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 128
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="ASE_PROJECT_ASSESMENT.Fill" data-throw-if-not-resolved="false"></xref> command when the string "fill" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnFill_ForFillCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnFill_ForFillCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  id: TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnAppIf_ForIfCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 142
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns an <xref href="ASE_PROJECT_ASSESMENT.AppIf" data-throw-if-not-resolved="false"></xref> command when the string "if" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnAppIf_ForIfCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnAppIf_ForIfCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  id: TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnAppFor_ForForCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnAppFor_ForForCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 156
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns an <xref href="ASE_PROJECT_ASSESMENT.AppFor" data-throw-if-not-resolved="false"></xref> command when the string "for" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnAppFor_ForForCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnAppFor_ForForCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  id: TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 170
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns an <xref href="ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod" data-throw-if-not-resolved="false"></xref> command when the string "method" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  id: TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 184
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory throws a <xref href="BOOSE.FactoryException" data-throw-if-not-resolved="false"></xref> when an unknown command is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(FactoryException))]
+
+      public void TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(FactoryException))>
+
+      Public Sub TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.FactoryException
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand
+  commentId: M:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand
+  id: TestMakeCommand_ShouldReturnCall_ForCallCommand
+  parent: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  langs:
+  - csharp
+  - vb
+  name: TestMakeCommand_ShouldReturnCall_ForCallCommand()
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand()
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMakeCommand_ShouldReturnCall_ForCallCommand
+    path: TestProject1/ComponentsProgramTest/AppCommandFactoryTest.cs
+    startLine: 195
+  assemblies:
+  - TestProject1
+  namespace: TestProject1.ComponentsProgramTest
+  summary: Tests that the factory correctly returns a <xref href="BOOSE.Call" data-throw-if-not-resolved="false"></xref> command when the string "call" is provided.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMakeCommand_ShouldReturnCall_ForCallCommand()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMakeCommand_ShouldReturnCall_ForCallCommand()
+  overload: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory.html
+  name: AppCommandFactory
+  nameWithType: AppCommandFactory
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppCommandFactory
+- uid: TestProject1.ComponentsProgramTest
+  commentId: N:TestProject1.ComponentsProgramTest
+  href: TestProject1.html
+  name: TestProject1.ComponentsProgramTest
+  nameWithType: TestProject1.ComponentsProgramTest
+  fullName: TestProject1.ComponentsProgramTest
+  spec.csharp:
+  - uid: TestProject1
+    name: TestProject1
+    href: TestProject1.html
+  - name: .
+  - uid: TestProject1.ComponentsProgramTest
+    name: ComponentsProgramTest
+    href: TestProject1.ComponentsProgramTest.html
+  spec.vb:
+  - uid: TestProject1
+    name: TestProject1
+    href: TestProject1.html
+  - name: .
+  - uid: TestProject1.ComponentsProgramTest
+    name: ComponentsProgramTest
+    href: TestProject1.ComponentsProgramTest.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_SetUp
+  name: SetUp
+  nameWithType: AppCommandFactoryTest.SetUp
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.SetUp
+- uid: ASE_PROJECT_ASSESMENT.Triangle
+  commentId: T:ASE_PROJECT_ASSESMENT.Triangle
+  href: ASE_PROJECT_ASSESMENT.Triangle.html
+  name: Triangle
+  nameWithType: Triangle
+  fullName: ASE_PROJECT_ASSESMENT.Triangle
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  name: TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnTriangle_ForTriCommand
+- uid: ASE_PROJECT_ASSESMENT.WriteTo
+  commentId: T:ASE_PROJECT_ASSESMENT.WriteTo
+  href: ASE_PROJECT_ASSESMENT.WriteTo.html
+  name: WriteTo
+  nameWithType: WriteTo
+  fullName: ASE_PROJECT_ASSESMENT.WriteTo
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  name: TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnWriteTo_ForWriteCommand
+- uid: BOOSE.Rect
+  commentId: T:BOOSE.Rect
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: BOOSE.Rect
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  name: TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnRectangle_ForRectCommand
+- uid: BOOSE.Circle
+  commentId: T:BOOSE.Circle
+  isExternal: true
+  name: Circle
+  nameWithType: Circle
+  fullName: BOOSE.Circle
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  name: TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCircle_ForCircleCommand
+- uid: BOOSE.MoveTo
+  commentId: T:BOOSE.MoveTo
+  isExternal: true
+  name: MoveTo
+  nameWithType: MoveTo
+  fullName: BOOSE.MoveTo
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  name: TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnMoveTo_ForMoveToCommand
+- uid: ASE_PROJECT_ASSESMENT.Reset
+  commentId: T:ASE_PROJECT_ASSESMENT.Reset
+  href: ASE_PROJECT_ASSESMENT.Reset.html
+  name: Reset
+  nameWithType: Reset
+  fullName: ASE_PROJECT_ASSESMENT.Reset
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnReset_ForResetCommand
+  name: TestMakeCommand_ShouldReturnReset_ForResetCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnReset_ForResetCommand
+- uid: ASE_PROJECT_ASSESMENT.Clear
+  commentId: T:ASE_PROJECT_ASSESMENT.Clear
+  href: ASE_PROJECT_ASSESMENT.Clear.html
+  name: Clear
+  nameWithType: Clear
+  fullName: ASE_PROJECT_ASSESMENT.Clear
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnClear_ForClearCommand
+  name: TestMakeCommand_ShouldReturnClear_ForClearCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnClear_ForClearCommand
+- uid: ASE_PROJECT_ASSESMENT.Fill
+  commentId: T:ASE_PROJECT_ASSESMENT.Fill
+  href: ASE_PROJECT_ASSESMENT.Fill.html
+  name: Fill
+  nameWithType: Fill
+  fullName: ASE_PROJECT_ASSESMENT.Fill
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnFill_ForFillCommand
+  name: TestMakeCommand_ShouldReturnFill_ForFillCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnFill_ForFillCommand
+- uid: ASE_PROJECT_ASSESMENT.AppIf
+  commentId: T:ASE_PROJECT_ASSESMENT.AppIf
+  href: ASE_PROJECT_ASSESMENT.AppIf.html
+  name: AppIf
+  nameWithType: AppIf
+  fullName: ASE_PROJECT_ASSESMENT.AppIf
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  name: TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppIf_ForIfCommand
+- uid: ASE_PROJECT_ASSESMENT.AppFor
+  commentId: T:ASE_PROJECT_ASSESMENT.AppFor
+  href: ASE_PROJECT_ASSESMENT.AppFor.html
+  name: AppFor
+  nameWithType: AppFor
+  fullName: ASE_PROJECT_ASSESMENT.AppFor
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  name: TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppFor_ForForCommand
+- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod.html
+  name: AppMethod
+  nameWithType: AppMethod
+  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  name: TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnAppMethod_ForMethodCommand
+- uid: BOOSE.FactoryException
+  commentId: T:BOOSE.FactoryException
+  parent: BOOSE
+  isExternal: true
+  name: FactoryException
+  nameWithType: FactoryException
+  fullName: BOOSE.FactoryException
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  name: TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldThrowFactoryException_ForUnknownCommand
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: BOOSE.Call
+  commentId: T:BOOSE.Call
+  isExternal: true
+  name: Call
+  nameWithType: Call
+  fullName: BOOSE.Call
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand*
+  commentId: Overload:TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html#TestProject1_ComponentsProgramTest_AppCommandFactoryTest_TestMakeCommand_ShouldReturnCall_ForCallCommand
+  name: TestMakeCommand_ShouldReturnCall_ForCallCommand
+  nameWithType: AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.TestMakeCommand_ShouldReturnCall_ForCallCommand

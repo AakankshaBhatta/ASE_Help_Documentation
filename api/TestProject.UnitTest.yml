@@ -1,0 +1,1267 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject.UnitTest
+  commentId: T:TestProject.UnitTest
+  id: UnitTest
+  parent: TestProject
+  children:
+  - TestProject.UnitTest.Setup
+  - TestProject.UnitTest.TestCanvasInitialization
+  - TestProject.UnitTest.TestCircle_InvalidRadius
+  - TestProject.UnitTest.TestCircle_ValidRadius
+  - TestProject.UnitTest.TestClearCanvas
+  - TestProject.UnitTest.TestDrawTo_InvalidPosition
+  - TestProject.UnitTest.TestDrawTo_ValidPosition
+  - TestProject.UnitTest.TestDrawTriangle_InvalidInput
+  - TestProject.UnitTest.TestDrawTriangle_ValidInput
+  - TestProject.UnitTest.TestFilledProperty
+  - TestProject.UnitTest.TestFilledPropertyFalse
+  - TestProject.UnitTest.TestMoveTo_InvalidPosition
+  - TestProject.UnitTest.TestMoveTo_ValidPosition
+  - TestProject.UnitTest.TestReset
+  - TestProject.UnitTest.TestSetColour_InvalidInput
+  - TestProject.UnitTest.TestSetColour_ValidInput
+  - TestProject.UnitTest.TestSetInvalidColour
+  - TestProject.UnitTest.TestWriteText_EmptyText
+  - TestProject.UnitTest.TestWriteText_ValidInput
+  langs:
+  - csharp
+  - vb
+  name: UnitTest
+  nameWithType: UnitTest
+  fullName: TestProject.UnitTest
+  type: Class
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: UnitTest
+    path: TestProject1/UnitTest.cs
+    startLine: 11
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: >-
+    This class contains unit tests for the <xref href="ASE_PROJECT_ASSESMENT.AppCanvas" data-throw-if-not-resolved="false"></xref> class.
+
+    It validates the behavior of methods such as <xref href="BOOSE.MoveTo" data-throw-if-not-resolved="false"></xref>, <xref href="BOOSE.DrawTo" data-throw-if-not-resolved="false"></xref>, SetColour, etc.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public class UnitTest
+    content.vb: >-
+      <TestClass>
+
+      Public Class UnitTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.Setup
+  commentId: M:TestProject.UnitTest.Setup
+  id: Setup
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: UnitTest.Setup()
+  fullName: TestProject.UnitTest.Setup()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: Setup
+    path: TestProject1/UnitTest.cs
+    startLine: 20
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: >-
+    Initializes the test environment before each test is run.
+
+    This method is called before each individual test method.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void Setup()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub Setup()
+  overload: TestProject.UnitTest.Setup*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestCanvasInitialization
+  commentId: M:TestProject.UnitTest.TestCanvasInitialization
+  id: TestCanvasInitialization
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestCanvasInitialization()
+  nameWithType: UnitTest.TestCanvasInitialization()
+  fullName: TestProject.UnitTest.TestCanvasInitialization()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestCanvasInitialization
+    path: TestProject1/UnitTest.cs
+    startLine: 29
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the initialization of the canvas, verifying its default position and size.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCanvasInitialization()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCanvasInitialization()
+  overload: TestProject.UnitTest.TestCanvasInitialization*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestMoveTo_ValidPosition
+  commentId: M:TestProject.UnitTest.TestMoveTo_ValidPosition
+  id: TestMoveTo_ValidPosition
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestMoveTo_ValidPosition()
+  nameWithType: UnitTest.TestMoveTo_ValidPosition()
+  fullName: TestProject.UnitTest.TestMoveTo_ValidPosition()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMoveTo_ValidPosition
+    path: TestProject1/UnitTest.cs
+    startLine: 45
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="BOOSE.MoveTo" data-throw-if-not-resolved="false"></xref> method with valid coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMoveTo_ValidPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMoveTo_ValidPosition()
+  overload: TestProject.UnitTest.TestMoveTo_ValidPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestMoveTo_InvalidPosition
+  commentId: M:TestProject.UnitTest.TestMoveTo_InvalidPosition
+  id: TestMoveTo_InvalidPosition
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestMoveTo_InvalidPosition()
+  nameWithType: UnitTest.TestMoveTo_InvalidPosition()
+  fullName: TestProject.UnitTest.TestMoveTo_InvalidPosition()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestMoveTo_InvalidPosition
+    path: TestProject1/UnitTest.cs
+    startLine: 56
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="BOOSE.MoveTo" data-throw-if-not-resolved="false"></xref> method with invalid coordinates, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestMoveTo_InvalidPosition()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestMoveTo_InvalidPosition()
+  overload: TestProject.UnitTest.TestMoveTo_InvalidPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestDrawTo_ValidPosition
+  commentId: M:TestProject.UnitTest.TestDrawTo_ValidPosition
+  id: TestDrawTo_ValidPosition
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawTo_ValidPosition()
+  nameWithType: UnitTest.TestDrawTo_ValidPosition()
+  fullName: TestProject.UnitTest.TestDrawTo_ValidPosition()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestDrawTo_ValidPosition
+    path: TestProject1/UnitTest.cs
+    startLine: 67
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="BOOSE.DrawTo" data-throw-if-not-resolved="false"></xref> method with valid coordinates.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawTo_ValidPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawTo_ValidPosition()
+  overload: TestProject.UnitTest.TestDrawTo_ValidPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestDrawTo_InvalidPosition
+  commentId: M:TestProject.UnitTest.TestDrawTo_InvalidPosition
+  id: TestDrawTo_InvalidPosition
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawTo_InvalidPosition()
+  nameWithType: UnitTest.TestDrawTo_InvalidPosition()
+  fullName: TestProject.UnitTest.TestDrawTo_InvalidPosition()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestDrawTo_InvalidPosition
+    path: TestProject1/UnitTest.cs
+    startLine: 81
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="BOOSE.DrawTo" data-throw-if-not-resolved="false"></xref> method with invalid coordinates, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestDrawTo_InvalidPosition()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestDrawTo_InvalidPosition()
+  overload: TestProject.UnitTest.TestDrawTo_InvalidPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestCircle_ValidRadius
+  commentId: M:TestProject.UnitTest.TestCircle_ValidRadius
+  id: TestCircle_ValidRadius
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestCircle_ValidRadius()
+  nameWithType: UnitTest.TestCircle_ValidRadius()
+  fullName: TestProject.UnitTest.TestCircle_ValidRadius()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestCircle_ValidRadius
+    path: TestProject1/UnitTest.cs
+    startLine: 91
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="BOOSE.Circle" data-throw-if-not-resolved="false"></xref> method with a valid radius.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCircle_ValidRadius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCircle_ValidRadius()
+  overload: TestProject.UnitTest.TestCircle_ValidRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestCircle_InvalidRadius
+  commentId: M:TestProject.UnitTest.TestCircle_InvalidRadius
+  id: TestCircle_InvalidRadius
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestCircle_InvalidRadius()
+  nameWithType: UnitTest.TestCircle_InvalidRadius()
+  fullName: TestProject.UnitTest.TestCircle_InvalidRadius()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestCircle_InvalidRadius
+    path: TestProject1/UnitTest.cs
+    startLine: 102
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="BOOSE.Circle" data-throw-if-not-resolved="false"></xref> method with an invalid radius, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestCircle_InvalidRadius()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestCircle_InvalidRadius()
+  overload: TestProject.UnitTest.TestCircle_InvalidRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestClearCanvas
+  commentId: M:TestProject.UnitTest.TestClearCanvas
+  id: TestClearCanvas
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestClearCanvas()
+  nameWithType: UnitTest.TestClearCanvas()
+  fullName: TestProject.UnitTest.TestClearCanvas()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestClearCanvas
+    path: TestProject1/UnitTest.cs
+    startLine: 113
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="ASE_PROJECT_ASSESMENT.Clear" data-throw-if-not-resolved="false"></xref> method, ensuring that the canvas is reset to its default state.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestClearCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestClearCanvas()
+  overload: TestProject.UnitTest.TestClearCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestSetColour_ValidInput
+  commentId: M:TestProject.UnitTest.TestSetColour_ValidInput
+  id: TestSetColour_ValidInput
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetColour_ValidInput()
+  nameWithType: UnitTest.TestSetColour_ValidInput()
+  fullName: TestProject.UnitTest.TestSetColour_ValidInput()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestSetColour_ValidInput
+    path: TestProject1/UnitTest.cs
+    startLine: 124
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the SetColour method with valid RGB values (Blue color).
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetColour_ValidInput()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetColour_ValidInput()
+  overload: TestProject.UnitTest.TestSetColour_ValidInput*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestSetColour_InvalidInput
+  commentId: M:TestProject.UnitTest.TestSetColour_InvalidInput
+  id: TestSetColour_InvalidInput
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetColour_InvalidInput()
+  nameWithType: UnitTest.TestSetColour_InvalidInput()
+  fullName: TestProject.UnitTest.TestSetColour_InvalidInput()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestSetColour_InvalidInput
+    path: TestProject1/UnitTest.cs
+    startLine: 142
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the SetColour method with invalid RGB values, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestSetColour_InvalidInput()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestSetColour_InvalidInput()
+  overload: TestProject.UnitTest.TestSetColour_InvalidInput*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestReset
+  commentId: M:TestProject.UnitTest.TestReset
+  id: TestReset
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestReset()
+  nameWithType: UnitTest.TestReset()
+  fullName: TestProject.UnitTest.TestReset()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestReset
+    path: TestProject1/UnitTest.cs
+    startLine: 153
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the <xref href="ASE_PROJECT_ASSESMENT.Reset" data-throw-if-not-resolved="false"></xref> method, ensuring that the canvas is reset to its initial position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestReset()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestReset()
+  overload: TestProject.UnitTest.TestReset*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestSetInvalidColour
+  commentId: M:TestProject.UnitTest.TestSetInvalidColour
+  id: TestSetInvalidColour
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetInvalidColour()
+  nameWithType: UnitTest.TestSetInvalidColour()
+  fullName: TestProject.UnitTest.TestSetInvalidColour()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestSetInvalidColour
+    path: TestProject1/UnitTest.cs
+    startLine: 166
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the SetColour method with invalid color setting, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestSetInvalidColour()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestSetInvalidColour()
+  overload: TestProject.UnitTest.TestSetInvalidColour*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestDrawTriangle_ValidInput
+  commentId: M:TestProject.UnitTest.TestDrawTriangle_ValidInput
+  id: TestDrawTriangle_ValidInput
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawTriangle_ValidInput()
+  nameWithType: UnitTest.TestDrawTriangle_ValidInput()
+  fullName: TestProject.UnitTest.TestDrawTriangle_ValidInput()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestDrawTriangle_ValidInput
+    path: TestProject1/UnitTest.cs
+    startLine: 176
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the Tri method for drawing a valid triangle.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawTriangle_ValidInput()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawTriangle_ValidInput()
+  overload: TestProject.UnitTest.TestDrawTriangle_ValidInput*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestDrawTriangle_InvalidInput
+  commentId: M:TestProject.UnitTest.TestDrawTriangle_InvalidInput
+  id: TestDrawTriangle_InvalidInput
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawTriangle_InvalidInput()
+  nameWithType: UnitTest.TestDrawTriangle_InvalidInput()
+  fullName: TestProject.UnitTest.TestDrawTriangle_InvalidInput()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestDrawTriangle_InvalidInput
+    path: TestProject1/UnitTest.cs
+    startLine: 186
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the Tri method with invalid input, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestDrawTriangle_InvalidInput()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestDrawTriangle_InvalidInput()
+  overload: TestProject.UnitTest.TestDrawTriangle_InvalidInput*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestWriteText_ValidInput
+  commentId: M:TestProject.UnitTest.TestWriteText_ValidInput
+  id: TestWriteText_ValidInput
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestWriteText_ValidInput()
+  nameWithType: UnitTest.TestWriteText_ValidInput()
+  fullName: TestProject.UnitTest.TestWriteText_ValidInput()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestWriteText_ValidInput
+    path: TestProject1/UnitTest.cs
+    startLine: 196
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the WriteText method with valid input.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestWriteText_ValidInput()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestWriteText_ValidInput()
+  overload: TestProject.UnitTest.TestWriteText_ValidInput*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestWriteText_EmptyText
+  commentId: M:TestProject.UnitTest.TestWriteText_EmptyText
+  id: TestWriteText_EmptyText
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestWriteText_EmptyText()
+  nameWithType: UnitTest.TestWriteText_EmptyText()
+  fullName: TestProject.UnitTest.TestWriteText_EmptyText()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestWriteText_EmptyText
+    path: TestProject1/UnitTest.cs
+    startLine: 206
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the WriteText method with empty text, expecting a <xref href="BOOSE.CanvasException" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestWriteText_EmptyText()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestWriteText_EmptyText()
+  overload: TestProject.UnitTest.TestWriteText_EmptyText*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestFilledProperty
+  commentId: M:TestProject.UnitTest.TestFilledProperty
+  id: TestFilledProperty
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestFilledProperty()
+  nameWithType: UnitTest.TestFilledProperty()
+  fullName: TestProject.UnitTest.TestFilledProperty()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestFilledProperty
+    path: TestProject1/UnitTest.cs
+    startLine: 216
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the Filled property when set to true.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestFilledProperty()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestFilledProperty()
+  overload: TestProject.UnitTest.TestFilledProperty*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: TestProject.UnitTest.TestFilledPropertyFalse
+  commentId: M:TestProject.UnitTest.TestFilledPropertyFalse
+  id: TestFilledPropertyFalse
+  parent: TestProject.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: TestFilledPropertyFalse()
+  nameWithType: UnitTest.TestFilledPropertyFalse()
+  fullName: TestProject.UnitTest.TestFilledPropertyFalse()
+  type: Method
+  source:
+    remote:
+      path: TestProject1/UnitTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
+    id: TestFilledPropertyFalse
+    path: TestProject1/UnitTest.cs
+    startLine: 226
+  assemblies:
+  - TestProject1
+  namespace: TestProject
+  summary: Tests the Filled property when set to false.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestFilledPropertyFalse()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestFilledPropertyFalse()
+  overload: TestProject.UnitTest.TestFilledPropertyFalse*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ASE_PROJECT_ASSESMENT.AppCanvas
+  commentId: T:ASE_PROJECT_ASSESMENT.AppCanvas
+  href: ASE_PROJECT_ASSESMENT.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_PROJECT_ASSESMENT.AppCanvas
+- uid: BOOSE.MoveTo
+  commentId: T:BOOSE.MoveTo
+  isExternal: true
+  name: MoveTo
+  nameWithType: MoveTo
+  fullName: BOOSE.MoveTo
+- uid: BOOSE.DrawTo
+  commentId: T:BOOSE.DrawTo
+  isExternal: true
+  name: DrawTo
+  nameWithType: DrawTo
+  fullName: BOOSE.DrawTo
+- uid: TestProject
+  commentId: N:TestProject
+  href: TestProject.html
+  name: TestProject
+  nameWithType: TestProject
+  fullName: TestProject
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TestProject.UnitTest.Setup*
+  commentId: Overload:TestProject.UnitTest.Setup
+  href: TestProject.UnitTest.html#TestProject_UnitTest_Setup
+  name: Setup
+  nameWithType: UnitTest.Setup
+  fullName: TestProject.UnitTest.Setup
+- uid: TestProject.UnitTest.TestCanvasInitialization*
+  commentId: Overload:TestProject.UnitTest.TestCanvasInitialization
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestCanvasInitialization
+  name: TestCanvasInitialization
+  nameWithType: UnitTest.TestCanvasInitialization
+  fullName: TestProject.UnitTest.TestCanvasInitialization
+- uid: TestProject.UnitTest.TestMoveTo_ValidPosition*
+  commentId: Overload:TestProject.UnitTest.TestMoveTo_ValidPosition
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestMoveTo_ValidPosition
+  name: TestMoveTo_ValidPosition
+  nameWithType: UnitTest.TestMoveTo_ValidPosition
+  fullName: TestProject.UnitTest.TestMoveTo_ValidPosition
+- uid: BOOSE.CanvasException
+  commentId: T:BOOSE.CanvasException
+  parent: BOOSE
+  isExternal: true
+  name: CanvasException
+  nameWithType: CanvasException
+  fullName: BOOSE.CanvasException
+- uid: TestProject.UnitTest.TestMoveTo_InvalidPosition*
+  commentId: Overload:TestProject.UnitTest.TestMoveTo_InvalidPosition
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestMoveTo_InvalidPosition
+  name: TestMoveTo_InvalidPosition
+  nameWithType: UnitTest.TestMoveTo_InvalidPosition
+  fullName: TestProject.UnitTest.TestMoveTo_InvalidPosition
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: TestProject.UnitTest.TestDrawTo_ValidPosition*
+  commentId: Overload:TestProject.UnitTest.TestDrawTo_ValidPosition
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestDrawTo_ValidPosition
+  name: TestDrawTo_ValidPosition
+  nameWithType: UnitTest.TestDrawTo_ValidPosition
+  fullName: TestProject.UnitTest.TestDrawTo_ValidPosition
+- uid: TestProject.UnitTest.TestDrawTo_InvalidPosition*
+  commentId: Overload:TestProject.UnitTest.TestDrawTo_InvalidPosition
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestDrawTo_InvalidPosition
+  name: TestDrawTo_InvalidPosition
+  nameWithType: UnitTest.TestDrawTo_InvalidPosition
+  fullName: TestProject.UnitTest.TestDrawTo_InvalidPosition
+- uid: BOOSE.Circle
+  commentId: T:BOOSE.Circle
+  isExternal: true
+  name: Circle
+  nameWithType: Circle
+  fullName: BOOSE.Circle
+- uid: TestProject.UnitTest.TestCircle_ValidRadius*
+  commentId: Overload:TestProject.UnitTest.TestCircle_ValidRadius
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestCircle_ValidRadius
+  name: TestCircle_ValidRadius
+  nameWithType: UnitTest.TestCircle_ValidRadius
+  fullName: TestProject.UnitTest.TestCircle_ValidRadius
+- uid: TestProject.UnitTest.TestCircle_InvalidRadius*
+  commentId: Overload:TestProject.UnitTest.TestCircle_InvalidRadius
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestCircle_InvalidRadius
+  name: TestCircle_InvalidRadius
+  nameWithType: UnitTest.TestCircle_InvalidRadius
+  fullName: TestProject.UnitTest.TestCircle_InvalidRadius
+- uid: ASE_PROJECT_ASSESMENT.Clear
+  commentId: T:ASE_PROJECT_ASSESMENT.Clear
+  href: ASE_PROJECT_ASSESMENT.Clear.html
+  name: Clear
+  nameWithType: Clear
+  fullName: ASE_PROJECT_ASSESMENT.Clear
+- uid: TestProject.UnitTest.TestClearCanvas*
+  commentId: Overload:TestProject.UnitTest.TestClearCanvas
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestClearCanvas
+  name: TestClearCanvas
+  nameWithType: UnitTest.TestClearCanvas
+  fullName: TestProject.UnitTest.TestClearCanvas
+- uid: TestProject.UnitTest.TestSetColour_ValidInput*
+  commentId: Overload:TestProject.UnitTest.TestSetColour_ValidInput
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestSetColour_ValidInput
+  name: TestSetColour_ValidInput
+  nameWithType: UnitTest.TestSetColour_ValidInput
+  fullName: TestProject.UnitTest.TestSetColour_ValidInput
+- uid: TestProject.UnitTest.TestSetColour_InvalidInput*
+  commentId: Overload:TestProject.UnitTest.TestSetColour_InvalidInput
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestSetColour_InvalidInput
+  name: TestSetColour_InvalidInput
+  nameWithType: UnitTest.TestSetColour_InvalidInput
+  fullName: TestProject.UnitTest.TestSetColour_InvalidInput
+- uid: ASE_PROJECT_ASSESMENT.Reset
+  commentId: T:ASE_PROJECT_ASSESMENT.Reset
+  href: ASE_PROJECT_ASSESMENT.Reset.html
+  name: Reset
+  nameWithType: Reset
+  fullName: ASE_PROJECT_ASSESMENT.Reset
+- uid: TestProject.UnitTest.TestReset*
+  commentId: Overload:TestProject.UnitTest.TestReset
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestReset
+  name: TestReset
+  nameWithType: UnitTest.TestReset
+  fullName: TestProject.UnitTest.TestReset
+- uid: TestProject.UnitTest.TestSetInvalidColour*
+  commentId: Overload:TestProject.UnitTest.TestSetInvalidColour
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestSetInvalidColour
+  name: TestSetInvalidColour
+  nameWithType: UnitTest.TestSetInvalidColour
+  fullName: TestProject.UnitTest.TestSetInvalidColour
+- uid: TestProject.UnitTest.TestDrawTriangle_ValidInput*
+  commentId: Overload:TestProject.UnitTest.TestDrawTriangle_ValidInput
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestDrawTriangle_ValidInput
+  name: TestDrawTriangle_ValidInput
+  nameWithType: UnitTest.TestDrawTriangle_ValidInput
+  fullName: TestProject.UnitTest.TestDrawTriangle_ValidInput
+- uid: TestProject.UnitTest.TestDrawTriangle_InvalidInput*
+  commentId: Overload:TestProject.UnitTest.TestDrawTriangle_InvalidInput
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestDrawTriangle_InvalidInput
+  name: TestDrawTriangle_InvalidInput
+  nameWithType: UnitTest.TestDrawTriangle_InvalidInput
+  fullName: TestProject.UnitTest.TestDrawTriangle_InvalidInput
+- uid: TestProject.UnitTest.TestWriteText_ValidInput*
+  commentId: Overload:TestProject.UnitTest.TestWriteText_ValidInput
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestWriteText_ValidInput
+  name: TestWriteText_ValidInput
+  nameWithType: UnitTest.TestWriteText_ValidInput
+  fullName: TestProject.UnitTest.TestWriteText_ValidInput
+- uid: TestProject.UnitTest.TestWriteText_EmptyText*
+  commentId: Overload:TestProject.UnitTest.TestWriteText_EmptyText
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestWriteText_EmptyText
+  name: TestWriteText_EmptyText
+  nameWithType: UnitTest.TestWriteText_EmptyText
+  fullName: TestProject.UnitTest.TestWriteText_EmptyText
+- uid: TestProject.UnitTest.TestFilledProperty*
+  commentId: Overload:TestProject.UnitTest.TestFilledProperty
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestFilledProperty
+  name: TestFilledProperty
+  nameWithType: UnitTest.TestFilledProperty
+  fullName: TestProject.UnitTest.TestFilledProperty
+- uid: TestProject.UnitTest.TestFilledPropertyFalse*
+  commentId: Overload:TestProject.UnitTest.TestFilledPropertyFalse
+  href: TestProject.UnitTest.html#TestProject_UnitTest_TestFilledPropertyFalse
+  name: TestFilledPropertyFalse
+  nameWithType: UnitTest.TestFilledPropertyFalse
+  fullName: TestProject.UnitTest.TestFilledPropertyFalse

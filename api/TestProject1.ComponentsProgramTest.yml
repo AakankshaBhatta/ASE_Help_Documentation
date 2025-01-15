@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: TestProject1.ComponentsProgramTest
+  commentId: N:TestProject1.ComponentsProgramTest
+  id: TestProject1.ComponentsProgramTest
+  children:
+  - TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  - TestProject1.ComponentsProgramTest.ParserProgramTests
+  - TestProject1.ComponentsProgramTest.StoredProgramTest
+  langs:
+  - csharp
+  - vb
+  name: TestProject1.ComponentsProgramTest
+  nameWithType: TestProject1.ComponentsProgramTest
+  fullName: TestProject1.ComponentsProgramTest
+  type: Namespace
+  assemblies:
+  - TestProject1
+references:
+- uid: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  commentId: T:TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+  href: TestProject1.ComponentsProgramTest.AppCommandFactoryTest.html
+  name: AppCommandFactoryTest
+  nameWithType: AppCommandFactoryTest
+  fullName: TestProject1.ComponentsProgramTest.AppCommandFactoryTest
+- uid: TestProject1.ComponentsProgramTest.ParserProgramTests
+  commentId: T:TestProject1.ComponentsProgramTest.ParserProgramTests
+  href: TestProject1.ComponentsProgramTest.ParserProgramTests.html
+  name: ParserProgramTests
+  nameWithType: ParserProgramTests
+  fullName: TestProject1.ComponentsProgramTest.ParserProgramTests
+- uid: TestProject1.ComponentsProgramTest.StoredProgramTest
+  commentId: T:TestProject1.ComponentsProgramTest.StoredProgramTest
+  href: TestProject1.ComponentsProgramTest.StoredProgramTest.html
+  name: StoredProgramTest
+  nameWithType: StoredProgramTest
+  fullName: TestProject1.ComponentsProgramTest.StoredProgramTest
