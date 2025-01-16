@@ -14,7 +14,6 @@ items:
   - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppMethod
   - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppReal
   - ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram
-  - ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
   - ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram
   langs:
   - csharp
@@ -33,12 +32,6 @@ references:
   name: AppArray
   nameWithType: AppArray
   fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppArray
-- uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
-  commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
-  href: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean.html
-  name: Boolean
-  nameWithType: Boolean
-  fullName: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
 - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean
   commentId: T:ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean
   href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.html

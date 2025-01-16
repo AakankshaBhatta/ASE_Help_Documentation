@@ -2010,6 +2010,47 @@ references:
   isSpec: "True"
   fullName: ASE_PROJECT_ASSESMENT.Form1.Dispose
   nameWithType: Form1.Dispose
+- uid: ASE_PROJECT_ASSESMENT.Loading
+  name: Loading
+  href: api/ASE_PROJECT_ASSESMENT.Loading.html
+  commentId: T:ASE_PROJECT_ASSESMENT.Loading
+  fullName: ASE_PROJECT_ASSESMENT.Loading
+  nameWithType: Loading
+- uid: ASE_PROJECT_ASSESMENT.Loading.#ctor
+  name: Loading()
+  href: api/ASE_PROJECT_ASSESMENT.Loading.html#ASE_PROJECT_ASSESMENT_Loading__ctor
+  commentId: M:ASE_PROJECT_ASSESMENT.Loading.#ctor
+  name.vb: New()
+  fullName: ASE_PROJECT_ASSESMENT.Loading.Loading()
+  fullName.vb: ASE_PROJECT_ASSESMENT.Loading.New()
+  nameWithType: Loading.Loading()
+  nameWithType.vb: Loading.New()
+- uid: ASE_PROJECT_ASSESMENT.Loading.#ctor*
+  name: Loading
+  href: api/ASE_PROJECT_ASSESMENT.Loading.html#ASE_PROJECT_ASSESMENT_Loading__ctor_
+  commentId: Overload:ASE_PROJECT_ASSESMENT.Loading.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ASE_PROJECT_ASSESMENT.Loading.Loading
+  fullName.vb: ASE_PROJECT_ASSESMENT.Loading.New
+  nameWithType: Loading.Loading
+  nameWithType.vb: Loading.New
+- uid: ASE_PROJECT_ASSESMENT.Loading.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/ASE_PROJECT_ASSESMENT.Loading.html#ASE_PROJECT_ASSESMENT_Loading_Dispose_System_Boolean_
+  commentId: M:ASE_PROJECT_ASSESMENT.Loading.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: ASE_PROJECT_ASSESMENT.Loading.Dispose(bool)
+  fullName.vb: ASE_PROJECT_ASSESMENT.Loading.Dispose(Boolean)
+  nameWithType: Loading.Dispose(bool)
+  nameWithType.vb: Loading.Dispose(Boolean)
+- uid: ASE_PROJECT_ASSESMENT.Loading.Dispose*
+  name: Dispose
+  href: api/ASE_PROJECT_ASSESMENT.Loading.html#ASE_PROJECT_ASSESMENT_Loading_Dispose_
+  commentId: Overload:ASE_PROJECT_ASSESMENT.Loading.Dispose
+  isSpec: "True"
+  fullName: ASE_PROJECT_ASSESMENT.Loading.Dispose
+  nameWithType: Loading.Dispose
 - uid: ASE_PROJECT_ASSESMENT.Parser
   name: Parser
   href: api/ASE_PROJECT_ASSESMENT.Parser.html

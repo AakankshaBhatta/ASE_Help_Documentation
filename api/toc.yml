@@ -43,14 +43,14 @@ items:
   - uid: ASE_PROJECT_ASSESMENT.Form1
     name: Form1
     type: Class
+  - uid: ASE_PROJECT_ASSESMENT.Loading
+    name: Loading
+    type: Class
   - uid: ASE_PROJECT_ASSESMENT.Reset
     name: Reset
     type: Class
   - uid: ASE_PROJECT_ASSESMENT.Triangle
     name: Triangle
-    type: Class
-  - uid: ASE_PROJECT_ASSESMENT.UserGuide
-    name: UserGuide
     type: Class
   - uid: ASE_PROJECT_ASSESMENT.WriteTo
     name: WriteTo
@@ -88,9 +88,6 @@ items:
     type: Class
   - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppStoredProgram
     name: AppStoredProgram
-    type: Class
-  - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.Boolean
-    name: Boolean
     type: Class
   - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.ParserProgram
     name: ParserProgram

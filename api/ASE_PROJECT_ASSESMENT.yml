@@ -17,9 +17,9 @@ items:
   - ASE_PROJECT_ASSESMENT.Clear
   - ASE_PROJECT_ASSESMENT.Fill
   - ASE_PROJECT_ASSESMENT.Form1
+  - ASE_PROJECT_ASSESMENT.Loading
   - ASE_PROJECT_ASSESMENT.Reset
   - ASE_PROJECT_ASSESMENT.Triangle
-  - ASE_PROJECT_ASSESMENT.UserGuide
   - ASE_PROJECT_ASSESMENT.WriteTo
   langs:
   - csharp
@@ -109,6 +109,12 @@ references:
   name: Form1
   nameWithType: Form1
   fullName: ASE_PROJECT_ASSESMENT.Form1
+- uid: ASE_PROJECT_ASSESMENT.Loading
+  commentId: T:ASE_PROJECT_ASSESMENT.Loading
+  href: ASE_PROJECT_ASSESMENT.Loading.html
+  name: Loading
+  nameWithType: Loading
+  fullName: ASE_PROJECT_ASSESMENT.Loading
 - uid: ASE_PROJECT_ASSESMENT.Reset
   commentId: T:ASE_PROJECT_ASSESMENT.Reset
   href: ASE_PROJECT_ASSESMENT.Reset.html
@@ -121,12 +127,6 @@ references:
   name: Triangle
   nameWithType: Triangle
   fullName: ASE_PROJECT_ASSESMENT.Triangle
-- uid: ASE_PROJECT_ASSESMENT.UserGuide
-  commentId: T:ASE_PROJECT_ASSESMENT.UserGuide
-  href: ASE_PROJECT_ASSESMENT.UserGuide.html
-  name: UserGuide
-  nameWithType: UserGuide
-  fullName: ASE_PROJECT_ASSESMENT.UserGuide
 - uid: ASE_PROJECT_ASSESMENT.WriteTo
   commentId: T:ASE_PROJECT_ASSESMENT.WriteTo
   href: ASE_PROJECT_ASSESMENT.WriteTo.html

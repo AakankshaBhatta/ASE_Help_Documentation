@@ -80,10 +80,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: XCanvasSize
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 16
+    startLine: 23
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
+  summary: The width of the canvas in the X direction.
+  example: []
   syntax:
     content: public int XCanvasSize
     return:
@@ -107,10 +109,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: YCanvasSize
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 16
+    startLine: 28
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
+  summary: The height of the canvas in the Y direction.
+  example: []
   syntax:
     content: public int YCanvasSize
     return:
@@ -134,10 +138,12 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: filled
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 24
+    startLine: 67
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
+  summary: A boolean flag indicating if the shape should be filled.
+  example: []
   syntax:
     content: public bool filled
     return:
@@ -161,7 +167,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: .ctor
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 29
+    startLine: 72
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -192,7 +198,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Xpos
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 40
+    startLine: 83
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -225,7 +231,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Ypos
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 49
+    startLine: 92
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -258,7 +264,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Filled
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 59
+    startLine: 102
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -292,7 +298,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: PenColour
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 78
+    startLine: 121
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -325,7 +331,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Circle
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 89
+    startLine: 132
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -365,7 +371,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Clear
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 126
+    startLine: 164
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -395,7 +401,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: DrawTo
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 141
+    startLine: 179
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -435,7 +441,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: getBitmap
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 156
+    startLine: 194
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -468,7 +474,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: MoveTo
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 166
+    startLine: 204
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -508,7 +514,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Rect
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 180
+    startLine: 218
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -551,7 +557,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Reset
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 201
+    startLine: 239
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -581,7 +587,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Set
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 212
+    startLine: 250
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -621,7 +627,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: SetColour
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 226
+    startLine: 264
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -664,7 +670,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Tri
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 240
+    startLine: 278
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT
@@ -704,7 +710,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: WriteText
     path: ASE_PROJECT_ASSESMENT/AppCanvas.cs
-    startLine: 271
+    startLine: 309
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT

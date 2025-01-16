@@ -20,7 +20,7 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: AppBoolean
     path: ASE_PROJECT_ASSESMENT/ComponentsProgram/AppBoolean.cs
-    startLine: 28
+    startLine: 11
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT.ComponentsProgram
@@ -89,18 +89,19 @@ items:
       repo: https://github.com/ASE-Classroom/ase-demo-assignment-AakankshaBhatta.git
     id: Restrictions
     path: ASE_PROJECT_ASSESMENT/ComponentsProgram/AppBoolean.cs
-    startLine: 40
+    startLine: 22
   assemblies:
   - ASE_PROJECT_ASSESMENT
   namespace: ASE_PROJECT_ASSESMENT.ComponentsProgram
   summary: >-
-    Override of the <xref href="ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.Restrictions" data-throw-if-not-resolved="false"></xref> method to remove the instance creation restriction.
+    A private static field for internal use in the AppBoolean class.
 
-    This method intentionally bypasses the restriction that is typically imposed on instance creation.
+    This field is intended for use within the class and is static in nature.
   example: []
   syntax:
-    content: public virtual void Restrictions()
-    content.vb: Public Overridable Sub Restrictions()
+    content: public override void Restrictions()
+    content.vb: Public Overrides Sub Restrictions()
+  overridden: BOOSE.Boolean.Restrictions
   overload: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.Restrictions*
 references:
 - uid: BOOSE.Boolean
@@ -709,6 +710,25 @@ references:
   - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.Restrictions
     name: Restrictions
     href: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.html#ASE_PROJECT_ASSESMENT_ComponentsProgram_AppBoolean_Restrictions
+  - name: (
+  - name: )
+- uid: BOOSE.Boolean.Restrictions
+  commentId: M:BOOSE.Boolean.Restrictions
+  parent: BOOSE.Boolean
+  isExternal: true
+  name: Restrictions()
+  nameWithType: Boolean.Restrictions()
+  fullName: BOOSE.Boolean.Restrictions()
+  spec.csharp:
+  - uid: BOOSE.Boolean.Restrictions
+    name: Restrictions
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: BOOSE.Boolean.Restrictions
+    name: Restrictions
+    isExternal: true
   - name: (
   - name: )
 - uid: ASE_PROJECT_ASSESMENT.ComponentsProgram.AppBoolean.Restrictions*
